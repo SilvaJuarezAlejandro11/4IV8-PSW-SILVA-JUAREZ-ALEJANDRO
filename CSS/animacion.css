@@ -23,7 +23,7 @@ Vamos A crear una animacion a partir de frames
 
 @keyframes Label-animation{
     from{
-        transform: rotade(0deg);
+        transform: rotate(0deg);
         margin-left:0;
     }
     to{
