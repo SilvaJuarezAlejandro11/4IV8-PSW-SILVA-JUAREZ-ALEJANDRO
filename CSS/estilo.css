@@ -64,7 +64,7 @@ article{
     height: 120px;
     width: 120px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #4400ff;
+    box-shadow: 5px 5px 5px #8467d4;
 } 
 
 footer,nav{
@@ -91,7 +91,28 @@ footer,nav{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(94, 58, 29);
 }
+.lol{
+    background-image: url("../imagenes/shurima.jpg");
+}
+.azir{
+    background-image: url("../imagenes/shurima.jpg");
+}
 
+.corea{
+    background-image: url("../imagenes/coreadelsur.jpg");
+}
+.fondocorea{
+    background-image: url("../imagenes/fondocorea.png");
+}
+.seoul{
+    background-image: url("../imagenes/seoul.jfif");
+}
+.youtube{
+    background-image: url("../imagenes/youtubefondo.png")
+}
+.blanco{
+    background-image: url("../imagenes/blanco.jpg");
+}
 @-webkit-keyframes spin{
     from{
         transform: rotate(0deg);
