@@ -1,74 +1,75 @@
-
-@keyframes animacion_test2{
-    from{
-        background-color: rgb(0, 66, 247);
-    }
-    to{
-        background-color: rgba(207, 190, 233, 0.521);
-    }
+body{
+    background-image: url(../imagenes/fondoindex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @keyframes animacion_test{
     from{
-        background-color: rgb(0, 68, 255);
+        background-color:transparent;
     }
     to{
-        background-color: rgba(111, 69, 179, 0.521);
+        background-color: rgba(128, 128, 55, 0.521);
     }
 }
-*{
-    padding:0;
-    margin:0;
+@keyframes animacion_test2{
+    from{
+        background-color:transparent;
+    }
+    to{
+        background-color: blue;
+    }
+}
+a:link{
+    text-decoration: none;
+    color: blackite;
+    transition: all 500ms ease;
+}
+a:visited{
+    color:rgb(128, 172, 9);
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .enlaces {
+    padding: 20px;
+    font-size: 1.5em;
+    }
+}
+@media (min-width: 800px) {
+    .enlaces {
+    padding: 40px;
+    font-size: 2em;
+    }
+}
+
+footer{
+    text-align: center;
+    background-image:url(../imagenes/verde.jfif) ;
+    padding: auto;
+}
+
+.tabla{
+    width: 100%;
+    background-color: red;
     color: white;
     text-align: center;
-
-}
-
-html, body{
-    background-color: bisque;
-}
-.main-container{
-    border:4px solid rgb(250,122,0);
-    border-radius: 20px;
-    margin: 10rem ; 
-    background-color: rgb(50,50,50);
-}
-nav, section, footer, article, aside{
-    border: 2px solid rgb(190, 57, 34);
-    margin: 1rem;
-    border-radius:10px;
-    padding: 1rem;
-}
-article, aside{
-    width: 40%;
-    display: inline-block;
-    height: 40%;
-    background-color: rgb(80, 99, 206);
+    height: 200px;
+     justify-content: center;
+    align-items: center;
     animation-name: animacion_test;
     animation-duration: 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
-nav{
-    background-color: rgb(83, 173, 61);
-}
-section{
-    background-color: rgb(146, 79, 223);
-}
-footer{
-    background-color: rgb(205, 35, 211);
-}
-.darclicaqui{
-    display: inline-block;
-    border: 100% solid rgb(255, 0, 0);
-    width: 75%;
-    height: 30%;
-    background-color: blueviolet;
+.titulo{
+    width: 100%;
+    text-align: center;
+    height: 200px;
+     justify-content: center;
+    align-items: center;
     animation-name: animacion_test2;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-.main-container2{
-    background-color: rgb(36, 114, 17); 
-
+    animation-duration: 5s;
+    animation-direction:normal;
+    animation-iteration-count:initial;
+    
 }
